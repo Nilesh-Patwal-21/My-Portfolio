@@ -15,6 +15,7 @@ body {
   background-image: url(images/background-image.png);
   background-size: cover;
   background-position: center;
+  background: #080808;
 }
 
 .container {
@@ -298,7 +299,21 @@ nav ul li a:hover::after {
   background: #ff004f;
 }
 .contact-right form {
-  width: 100%;
+ 
+  display: block;
+  height: 110px;
+  margin: 150px auto;
+  width: 300px;
+  border: 1px solid #ff004f;
+  padding: 10px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+  /* width: 100%;
+  align-items: center;
+  margin-top: 345px;
+  margin-left: -160px; */
 }
 form input,
 form textarea {
